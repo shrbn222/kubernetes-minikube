@@ -11,4 +11,9 @@ public class MyServiceRest {
         return "Hello";
     }
 
+    @GetMapping("/status")
+    public String status() {
+        return "Service is running";
+    }
+
 }
